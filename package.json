@@ -1,0 +1,9 @@
+{
+  "name": "pagevoice-plus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev": "vite", "build": "vite build", "preview": "vite preview"},
+  "dependencies": {"scribe.js-ocr": "^0.12.0"},
+  "devDependencies": {"vite": "^6.0.0"}
+}
