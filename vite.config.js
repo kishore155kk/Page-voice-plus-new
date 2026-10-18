@@ -7,6 +7,10 @@ export default defineConfig({
   base: repo && !repo.endsWith('.github.io') ? `/${repo}/` : '/',
   worker: {
     format: 'es'
+  },
+  build: {
+    target: 'esnext'
   }
 });
+
 
